@@ -9,7 +9,7 @@
 # All rights reserved.
 
 import asyncio
-from typing import Dict...
+from typing import Dict
 
 from pyrogram.errors import BotInlineDisabled
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
