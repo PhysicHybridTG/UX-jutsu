@@ -6,7 +6,7 @@ _T_LIMIT = 5242880
 
 @userge.on_cmd("op", about={
     'header': "Pasting some files content",
-    'types': ['.json', '.html', '.txt', '.py'],
+    'types': ['.json', '.html', '.txt', '.py','.log'],
     'usage': "Reply to media with extension mentioned above : limit 5MB for media"})
 async def te_(message: Message):
     replied = message.reply_to_message
